@@ -1,0 +1,19 @@
+//Items
+item.thalinium_ingot.name=Thalinium Rúd
+
+//Blocks
+tile.thalinium_block.name=Thalinium Tömb
+tile.thalinium_ore.name=Thalinium Érc
+
+//Tools
+item.thalinium_hoe.name=Thalinium Kapa
+item.thalinium_axe.name=Thalinium Balta
+item.thalinium_pickaxe.name=Thalinium Csákány
+item.thalinium_shovel.name=Thalinium Ásó
+item.thalinium_sword.name=Thalinium Kard
+
+//Armor
+item.thalinium_helmet.name=Thalinium Sisak
+item.thalinium_chestplate.name=Thalinium Mellvért
+item.thalinium_leggings.name=Thalinium Lábszárvédõ
+item.thalinium_boots.name=Thalinium Csizmák

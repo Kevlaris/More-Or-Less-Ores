@@ -1,0 +1,19 @@
+//Items
+item.thalinium_ingot.name=Thalinium Ingot
+
+//Blocks
+tile.thalinium_block.name=Thalinium Block
+tile.thalinium_ore.name=Thalinium Ore
+
+//Tools
+item.thalinium_hoe.name=Thalinium Hoe
+item.thalinium_axe.name=Thalinium Axe
+item.thalinium_pickaxe.name=Thalinium Pickaxe
+item.thalinium_shovel.name=Thalinium Shovel
+item.thalinium_sword.name=Thalinium Sword
+
+//Armor
+item.thalinium_helmet.name=Thalinium Helmet
+item.thalinium_chestplate.name=Thalinium Chestplate
+item.thalinium_leggings.name=Thalinium Leggings
+item.thalinium_boots.name=Thalinium Boots
