@@ -17,3 +17,6 @@ item.thalinium_helmet.name=Thalinium Helmet
 item.thalinium_chestplate.name=Thalinium Chestplate
 item.thalinium_leggings.name=Thalinium Leggings
 item.thalinium_boots.name=Thalinium Boots
+
+//Tabs
+itemGroup.molotab=More Or Less Ores

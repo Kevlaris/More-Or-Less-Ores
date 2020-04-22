@@ -3,7 +3,7 @@ package kevlaris.molo.items.armor;
 import kevlaris.molo.init.ModItems;
 import kevlaris.molo.utils.IHasModel;
 import kevlaris.molo.Main;
-import net.minecraft.creativetab.CreativeTabs;
+
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 
@@ -13,7 +13,7 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(Main.molotab);
 		
 		ModItems.ITEMS.add(this);
 	}

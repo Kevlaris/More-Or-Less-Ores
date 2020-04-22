@@ -3,7 +3,6 @@ package kevlaris.molo.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import kevlaris.molo.blocks.BlockBase;
 import kevlaris.molo.blocks.ThaliniumBlock;
 import kevlaris.molo.blocks.ThaliniumOre;
 import net.minecraft.block.Block;

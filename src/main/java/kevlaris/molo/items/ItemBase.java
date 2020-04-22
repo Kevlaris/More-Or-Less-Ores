@@ -3,7 +3,6 @@ package kevlaris.molo.items;
 import kevlaris.molo.init.ModItems;
 import kevlaris.molo.utils.IHasModel;
 import kevlaris.molo.Main;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel {
@@ -12,7 +11,7 @@ public class ItemBase extends Item implements IHasModel {
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(Main.molotab);
 		
 		ModItems.ITEMS.add(this);
 	}

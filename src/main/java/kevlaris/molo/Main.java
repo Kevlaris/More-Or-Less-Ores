@@ -2,8 +2,10 @@ package kevlaris.molo;
 
 import kevlaris.molo.init.ModRecipes;
 import kevlaris.molo.proxy.CommonProxy;
+import kevlaris.molo.tabs.MOLOTab;
 import kevlaris.molo.utils.Reference;
 import kevlaris.molo.world.ModWorldGen;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -18,6 +20,8 @@ public class Main {
 
 	@Instance
 	public static Main instance;
+	
+	public static final CreativeTabs molotab = new MOLOTab("molotab");
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;

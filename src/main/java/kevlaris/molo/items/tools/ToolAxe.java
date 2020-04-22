@@ -3,8 +3,6 @@ package kevlaris.molo.items.tools;
 import kevlaris.molo.init.ModItems;
 import kevlaris.molo.utils.IHasModel;
 import kevlaris.molo.Main;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemAxe;
 
 public class ToolAxe extends ItemAxe implements IHasModel {
@@ -14,7 +12,7 @@ public class ToolAxe extends ItemAxe implements IHasModel {
 		super(material, 8.0f, -3.0f);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(Main.molotab);
 		
 		ModItems.ITEMS.add(this);
 	}

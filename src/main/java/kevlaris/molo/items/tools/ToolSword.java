@@ -3,7 +3,7 @@ package kevlaris.molo.items.tools;
 import kevlaris.molo.init.ModItems;
 import kevlaris.molo.utils.IHasModel;
 import kevlaris.molo.Main;
-import net.minecraft.creativetab.CreativeTabs;
+
 import net.minecraft.item.ItemSword;
 
 public class ToolSword extends ItemSword implements IHasModel
@@ -14,7 +14,7 @@ public class ToolSword extends ItemSword implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(Main.molotab);
 		
 		ModItems.ITEMS.add(this);
 	}
